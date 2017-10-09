@@ -89,8 +89,8 @@ var scenes = {
     }
   },
   walrus: {
-    image: 'walrus.jpg',
-    preview: 'walrus-preview.jpg',
+    image: '1.jpg',
+    preview: '2.jpg',
     hotspots: {
       whaleLeft: {
         pitch: 0,
@@ -116,8 +116,8 @@ var scenes = {
 
 function onLoad() {
   vrView = new VRView.Player('#vrview', {
-    image: 'blank.png',
-    preview: 'blank.png',
+    image: '4.png',
+    preview: '5.png',
     is_stereo: true,
     is_autopan_off: true
   });
