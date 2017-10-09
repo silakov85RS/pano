@@ -18,7 +18,7 @@ var vrView;
 var scenes = {
   dolphins: {
     image: '1.jpg',
-    preview: '1.jpg',
+    preview: 'preview.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -42,7 +42,7 @@ var scenes = {
   },
   whaleLeft: {
     image: '2.jpg',
-    preview: '2.jpg',
+    preview: 'preview.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -66,7 +66,7 @@ var scenes = {
   },
   whaleRight: {
     image: '3.jpg',
-    preview: '3.jpg',
+    preview: 'preview.jpg',
     hotspots: {
       dolphins: {
         pitch: 0,
@@ -90,7 +90,7 @@ var scenes = {
   },
   walrus: {
     image: '4.jpg',
-    preview: '4.jpg',
+    preview: 'preview.jpg',
     hotspots: {
       whaleLeft: {
         pitch: 0,
