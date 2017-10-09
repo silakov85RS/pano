@@ -18,7 +18,7 @@ var vrView;
 var scenes = {
   dolphins: {
     image: '1.jpg',
-    preview: '2.jpg',
+    preview: '1.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -41,8 +41,8 @@ var scenes = {
     }
   },
   whaleLeft: {
-    image: '3.jpg',
-    preview: '4.jpg',
+    image: '2.jpg',
+    preview: '2.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -65,8 +65,8 @@ var scenes = {
     }
   },
   whaleRight: {
-    image: '5.jpg',
-    preview: '6.jpg',
+    image: '3.jpg',
+    preview: '3.jpg',
     hotspots: {
       dolphins: {
         pitch: 0,
@@ -89,8 +89,8 @@ var scenes = {
     }
   },
   walrus: {
-    image: '1.jpg',
-    preview: '2.jpg',
+    image: '4.jpg',
+    preview: '4.jpg',
     hotspots: {
       whaleLeft: {
         pitch: 0,
@@ -116,8 +116,8 @@ var scenes = {
 
 function onLoad() {
   vrView = new VRView.Player('#vrview', {
-    image: '4.png',
-    preview: '5.png',
+    image: 'blank.png',
+    preview: 'blank.png',
     is_stereo: true,
     is_autopan_off: true
   });
