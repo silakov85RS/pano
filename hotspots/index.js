@@ -17,8 +17,8 @@ var vrView;
 // All the scenes for the experience
 var scenes = {
   dolphins: {
-    image: 'dolphins.jpg',
-    preview: 'dolphins-preview.jpg',
+    image: '1.jpg',
+    preview: '2.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -41,8 +41,8 @@ var scenes = {
     }
   },
   whaleLeft: {
-    image: 'whale-left.jpg',
-    preview: 'whale-left-preview.jpg',
+    image: '3.jpg',
+    preview: '4.jpg',
     hotspots: {
       whaleRight: {
         pitch: 0,
@@ -65,8 +65,8 @@ var scenes = {
     }
   },
   whaleRight: {
-    image: 'whale-right.jpg',
-    preview: 'whale-right-preview.jpg',
+    image: '5.jpg',
+    preview: '6.jpg',
     hotspots: {
       dolphins: {
         pitch: 0,
